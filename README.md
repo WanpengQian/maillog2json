@@ -4,7 +4,7 @@ This script analyzes mail.log and outputs the data in JSON format.
 
 Usage:
 ```
-cat /var/log/mail.log | maillog2json.js
+cat /var/log/mail.log | main.js
 ```
 
 mail.log:
@@ -33,5 +33,6 @@ It will output:
   }
 }
 ```
+for further processing.
 
 It is recommended to process the last hour's data using a cron job.
